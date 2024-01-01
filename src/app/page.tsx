@@ -1,3 +1,10 @@
+import { Button } from "@nextui-org/react";
+
 export default function Home() {
-  return <div>Home page</div>;
+  return (
+    <div>
+      Home page
+      <Button>Click Me</Button>
+    </div>
+  );
 }
